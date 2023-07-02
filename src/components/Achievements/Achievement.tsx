@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+// import { EffectCoverflow, Pagination } from "swiper";
 
 import img1 from '../../assets/gallery/1.jpg'
 import img2 from '../../assets/gallery/2.jpeg'
@@ -40,7 +40,6 @@ const Achievement = () => {
         }}
         loop={true}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

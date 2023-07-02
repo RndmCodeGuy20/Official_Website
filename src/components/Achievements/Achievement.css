@@ -15,6 +15,7 @@ padding: 25px 0;
 .swiper-slide {
   width: 60vw;
   height: 60vh;
+  margin: 0 50px;
 }
 
 .swiper-slide:nth-child(1){
