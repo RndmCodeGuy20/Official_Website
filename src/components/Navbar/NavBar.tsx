@@ -18,11 +18,11 @@ const NavBar = () => {
                   </a>
               </h1>
               <ul className={styles["nav_menu"]}>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="#achievements">Achievements</a></li>
-                  <li><a href="#faqs">FAQs</a></li>
+                  <li><a href="/#">Home</a></li>
+                  <li><a href="/#about">About</a></li>
+                  <li><a href="/team">Team</a></li>
+                  <li><a href="/#achievements">Achievements</a></li>
+                  <li><a href="/#faqs">FAQs</a></li>
               </ul>
           </div>
       </nav>
