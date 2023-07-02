@@ -1,18 +1,15 @@
 .nav {
-    position: sticky;
+
     background: rgb(25 25 25 / 10%);
     border-radius: 15px;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    width: 91vw;
-    height: 10vh;
-    top: 15px;
-    left: 5%;
+    
     z-index: 11;
     color: #fff;
-    position: relative;
     padding: 0 10%;
-    height: 100%;
+        position: fixed;
+    top: 0;
 }
 
 .progress{
