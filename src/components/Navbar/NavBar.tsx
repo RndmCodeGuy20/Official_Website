@@ -6,7 +6,7 @@ import NavDrawer from './NavDrawer'
 
 const NavBar = () => {  
 
-    const [showMenu, setshowMenu] = useState(true)
+    const [showMenu, setshowMenu] = useState(false)
 
 
   return (
