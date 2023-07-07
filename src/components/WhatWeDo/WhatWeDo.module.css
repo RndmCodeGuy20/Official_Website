@@ -6,6 +6,7 @@ padding: 25px 0;
 
 
 .f0 {
+	position: relative;
 	height: 50vh;
 	padding-block: 13rem;
     display: grid;
@@ -13,7 +14,12 @@ padding: 25px 0;
     margin-bottom: 150px ;
     padding-top: 0;
 }
-
+.f0 header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 .newcontainer {
 	position: relative;
 	width: 320px;
@@ -64,11 +70,68 @@ padding: 25px 0;
 	}
 }
 
+
+	.newimage:nth-child(1) {
+		background-image: url("../../assets/todo/plane.jpg");
+		transform: rotateY(-60deg) translateZ(180px) translateY(120px);
+	}
+
+	.newimage:nth-child(2) {
+		background-image: url("../../assets/logo.png");
+		transform: rotateY(0deg) translateZ(180px) translateY(90px);
+	}
+
+	.newimage:nth-child(3) {
+		background-image: url("../../assets/todo/drone.jpg");
+		transform: rotateY(60deg) translateZ(180px) translateY(30px);
+	}
+
+	.newimage:nth-child(4) {
+		background-image: url("../../assets/todo/bot.jpg");
+		transform: rotateY(120deg) translateZ(180px) translateY(-30px);
+	}
+
+	.newimage:nth-child(5) {
+		background-image: url("../../assets/todo/boat.jpg");
+		transform: rotateY(180deg) translateZ(180px) translateY(-90px);
+	}
+	.newimage:nth-child(6) {
+		background-image: url("../../assets/todo/robot.jpg");
+		transform: rotateY(240deg) translateZ(180px) translateY(-150px);
+	}
+	.newimage:nth-child(7) {
+		background-image: url("../../assets/todo/robot.jpg");
+		transform: rotateY(240deg) translateZ(180px) translateY(-10px);
+	}
+
+
+@media screen and (max-width: 768px) {
+	.f0{ 
+		height: 100vh;
+		padding-block: 15rem;
+	}	
+	.carousel{ 
+		animation: rotate360 5s infinite forwards linear;
+	}
+	.newimage{ 
+		width: 150px;
+		height: 100px;
+		top: 15%;
+	}
+	.carousel-span {
+		font-size: 1rem;
+	}
+
+	
+
+}
+@media screen and (min-width: 768px) {
+	
 .newimage:nth-child(1) {
 	background-image: url("../../assets/todo/plane.jpg");
 	transform: rotateY(-60deg) translateZ(430px);
 }
-
+	
 .newimage:nth-child(2) {
 	background-image: url("../../assets/logo.png");
 	transform: rotateY(0deg) translateZ(430px);
@@ -91,4 +154,24 @@ padding: 25px 0;
 .newimage:nth-child(6) {
 	background-image: url("../../assets/todo/robot.jpg");
 	transform: rotateY(240deg) translateZ(430px);
+}
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .carousel-span {
+		font-size: 1.25rem;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 910px) {
+    .carousel-span {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 1440px) {
+    
 }

@@ -9,6 +9,9 @@ const WhatWeDo = () => {
         <h2>What we do?</h2>
       </header>
       <section id="f0" className={styles["f0"]}>
+        <header>
+          Robotics & Aviation Club
+        </header>
         <div className={styles["newcontainer"]}>
           <div className={styles["carousel"]}>
             <div className={`${styles["newimage"]} pointer`}>
@@ -36,6 +39,9 @@ const WhatWeDo = () => {
             <div className={`${styles["newimage"]} ${styles["pointer"]}`}>
               <span className={styles["carousel-span"]}>Robots</span>
             </div>
+            {/* <div className={`${styles["newimage"]} ${styles["pointer"]}`}>
+              <span className={styles["carousel-span"]}>Robots</span>
+            </div> */}
           </div>
         </div>
       </section>
