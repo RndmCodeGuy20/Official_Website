@@ -7,7 +7,7 @@ interface PROPS {
   setshowMenu: (showMenu: boolean) => void
 }
 
-const NavDrawer = (props) => {
+const NavDrawer = (props:PROPS) => {
 
   return (
     <ul className={styles.drawer}>
