@@ -75,7 +75,7 @@
 .nav_drawer{ 
     position: absolute;
     top: 20%;
-    left: 2.5%;
+    left: 0%;
     animation: navOpen 0.3s ease;
 }
 
