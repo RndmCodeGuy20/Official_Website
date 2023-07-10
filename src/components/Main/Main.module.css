@@ -6,6 +6,7 @@
     height: 90vh;
     place-content: center;
     padding: 5% 10%;
+    margin-bottom: 5%;
 }
 
 .home header{ 
@@ -51,7 +52,7 @@
 
 .home_button { 
     width: 100%;
-    margin-top: 25px;
+    margin-top: 5%;
 }
 .home_button button{ 
     font-weight: 600;
@@ -64,7 +65,7 @@
 
 .home_button button:hover {
     cursor: pointer;
-    background-color: #2EE59D;
+    background-color: rgba(46, 229, 157,0.75);
     color: #fff;
     transform: translateY(-7px);
     outline: none;

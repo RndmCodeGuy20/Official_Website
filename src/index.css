@@ -67,7 +67,8 @@
     --color-bt: red;
     --color-green: #00BE08;
 
-
+    --shadow-color: #00000040;
+    
     --container-width-lg: 80%;
     --container-width-md: 90%;
     --container-width-sm: 94%;
