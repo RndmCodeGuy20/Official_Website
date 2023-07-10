@@ -17,7 +17,7 @@ const About = () => {
              style={{ height: '75%'}}>
             <div data-aos="fade-right" className={`${"aboutLogo"} flex flex-center`} style={{width: "75%"}}>
                 <img src={logo}
-                     width="75%"
+                     width="50%"
                      alt="" />
             </div>
             <div  data-aos="fade-right" data-aos-delay="100" className={`${styles["aboutDescription"]} flex flex-col gap`}>
