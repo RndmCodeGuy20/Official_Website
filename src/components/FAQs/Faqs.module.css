@@ -57,3 +57,18 @@
 .faq.open p{
     display:block;
 }
+
+
+@media screen and (max-width: 768px) {
+    .faq h4{
+        font-size: 0.8rem;
+    }
+    .faq p{ 
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 512px) {
+    .faqs_container{
+        grid-template-columns: 1fr;
+    }
+}
