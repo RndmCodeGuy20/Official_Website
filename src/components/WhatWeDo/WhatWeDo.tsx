@@ -8,7 +8,7 @@ const WhatWeDo = () => {
       <header data-aos="slide-up" className={styles["header"]}>
         <h2>What we do?</h2>
       </header>
-      <section id="f0" className={styles["f0"]}>
+      <div id="f0" className={styles["f0"]}>
         <header>
           Robotics & Aviation Club
         </header>
@@ -47,7 +47,7 @@ const WhatWeDo = () => {
             </div> */}
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

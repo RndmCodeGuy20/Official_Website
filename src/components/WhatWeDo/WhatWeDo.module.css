@@ -14,8 +14,6 @@
 
 .f0 {
 	position: relative;
-	min-height: auto;
-	max-height: auto;
 
 	padding-block: 13rem;
     display: grid;
@@ -168,8 +166,12 @@
 	}
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
+	.f0{ 
+		height: 60vh;
+	}
     .carousel-span {
 		font-size: 1.25rem;
+		
 	}
 	.f0 header{ 
 		visibility: visible;
@@ -190,18 +192,22 @@
 		font-size: 1.5rem;
 	}
 	.f0{ 
-
+		min-height: auto;
+		height: 30vh;
 		padding-block: 15rem;
 	}	
+	.f0 header{ 
+		font-size: larger;
+	}
 	.newimage{ 
-		width: 25vw;
-		height: 75px;
+		width: 30vw;
+		height: 14vh;
 		top: 15%;
 	}
 
 
 	.carousel-span {
-		font-size: 0.95rem;
+		font-size: 0.9rem;
 	}
 	
 	.newimage:nth-child(1) {
