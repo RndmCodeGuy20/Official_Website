@@ -1,15 +1,4 @@
-.about header img {
-    animation: rotate360 6s ease-in-out infinite alternate;
-    transform: rotateY(25deg);
-}
-@keyframes rotate360 {
-    0% {
-        transform: rotate3d(0deg);
-    }
-    100% { 
-        transform: rotate3D(360deg);
-    }
-}
+
 .newsection header h2{ 
     font-size: 2.75rem;
 }
