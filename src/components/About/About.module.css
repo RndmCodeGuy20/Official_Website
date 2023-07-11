@@ -18,3 +18,22 @@
     width: 75%;
     padding: 0 10% 0 0;
 }
+
+@media screen and (max-width: 768px) {
+    .newsection header h2{ 
+        width: 100%;
+        font-size: 2.25rem;
+        text-align: center;
+        margin: 0;
+    }
+    .aboutMain div img{ 
+        width: 50%;
+    }
+
+    .aboutDescription{ 
+        width: 75%;
+        font-size: small;
+    }
+    .aboutMain{ 
+    }
+}

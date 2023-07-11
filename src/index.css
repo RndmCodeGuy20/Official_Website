@@ -155,3 +155,9 @@ section {
 .newsection {
     margin-top : 5%;
 }
+
+@media screen and (max-width: 768px){
+    .newsection {
+        margin-top : 0;
+    }
+}
