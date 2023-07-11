@@ -1,10 +1,25 @@
-import React from 'react'
+import React, { useState} from 'react'
+import styles from '../../components/DomainCard/DomainCard.module.css'
+import { domainData } from './domainData'
+import DomainCard from '../../components/DomainCard/DomainCard'
 
 const Domains = () => {
+  const [allDomains, setallDomains] = useState([...domainData])
   return (
-    <div>
-        Domains
-    </div>
+        <section id="particlesJS" className={styles["domainMain"]}>
+            <header data-aos="fade-in">
+                <h2>Club Members 2023</h2>
+            </header>
+            <div className={styles["allDomain"]}>
+                {
+                  allDomains.map((domain) => {
+                    return(
+                      <DomainCard domain={domain} />
+                    )
+                  })
+            } 
+            </div>
+        </section>
   )
 }
 
