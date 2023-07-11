@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 
 const Footer = () => {
   return (
-      <footer className={styles["footer"]}>
+      <section className={styles["footer"]}>
           <div className={styles["footer_container"]}>
               <div className={styles["footer_1"]}>
                   <a href="index.html"
@@ -52,7 +52,7 @@ const Footer = () => {
               <small>All rights owned by Robioncis
               </small>
           </div>
-      </footer>
+      </section>
   )
 }
 

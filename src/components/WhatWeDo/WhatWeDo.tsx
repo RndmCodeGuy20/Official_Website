@@ -4,11 +4,14 @@ import plane from "../../assets/todo/plane.jpg";
 
 const WhatWeDo = () => {
   return (
-    <>
+    <div className={styles["mainContainer"]}>
       <header data-aos="slide-up" className={styles["header"]}>
         <h2>What we do?</h2>
       </header>
       <section id="f0" className={styles["f0"]}>
+        <header>
+          Robotics & Aviation Club
+        </header>
         <header>
           Robotics & Aviation Club
         </header>
@@ -45,7 +48,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
