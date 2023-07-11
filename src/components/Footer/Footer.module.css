@@ -85,6 +85,7 @@
 
 @media screen and (max-width: 512px) {
     .footer{ 
+        padding-top: 1rem;
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -97,8 +98,16 @@
         gap: 3rem;
     
     }
+    .footer_1{ 
+        width: 100%;
+    }
+    .footer_1 a{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .footer_1 img{ 
-        scale: 1.1;
+        width: 25%;
     }
     
 }
