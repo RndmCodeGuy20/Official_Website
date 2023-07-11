@@ -27,7 +27,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-size: 500% auto;
-    animation: textShine 6s ease-in-out infinite alternate;
+    animation: textShine 5s ease-in-out infinite alternate;
 }
 
 @keyframes textShine {
