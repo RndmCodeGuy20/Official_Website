@@ -23,7 +23,6 @@
     .newsection header h2{ 
         width: 100%;
         font-size: 2.25rem;
-        text-align: center;
         margin: 0;
     }
     .aboutMain div img{ 
@@ -32,8 +31,38 @@
 
     .aboutDescription{ 
         width: 75%;
-        font-size: small;
+        font-size: medium;
     }
     .aboutMain{ 
+
+    }
+}
+@media screen and (max-width: 675px) {
+        .aboutDescription{ 
+            width: 75%;
+            font-size: small;
+    }
+}
+@media screen and (max-width: 512px) {
+    .newsection header h2{ 
+        width: 100%;
+        font-size: 2.25rem;
+        margin: 0;
+    }
+    .aboutMain div img{ 
+        width: 40%;
+    }
+
+    .aboutDescription{ 
+        width: 100%;
+        font-size: medium;
+    }
+    .aboutDescription p{ 
+        width: 90%; 
+        margin: 0 auto;
+        text-align: center;
+    }
+    .aboutMain{ 
+        flex-direction: column;
     }
 }
