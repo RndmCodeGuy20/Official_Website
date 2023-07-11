@@ -8,7 +8,7 @@ const Domains = () => {
   return (
         <section id="particlesJS" className={styles["domainMain"]}>
             <header data-aos="fade-in">
-                <h2>Club Members 2023</h2>
+                <h2>RAC Club Domains</h2>
             </header>
             <div className={styles["allDomain"]}>
                 {

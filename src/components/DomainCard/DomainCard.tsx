@@ -4,7 +4,13 @@ import styles from './DomainCard.module.css'
 
 const DomainCard = (props) => {
   return (
-    <div className={styles["card"]}>
+    <div className={styles["card"]}
+        style={{ 
+            background: `url(${props.domain.thumbnail})`,
+        }}
+    >
+        <div className={styles["card-content"]}>
+
         <h2 className={styles["card-title"]}>
             Awesome
         </h2>
@@ -14,6 +20,7 @@ const DomainCard = (props) => {
         <a href="#" className="button">
             Learn More
         </a>
+        </div>
     </div>
   )
 }

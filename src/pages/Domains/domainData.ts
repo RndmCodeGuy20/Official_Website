@@ -1,3 +1,6 @@
+
+import robot from "../../assets/todo/robot.jpg";
+
 export const domainData = [
   {
     id: 1,
@@ -11,7 +14,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    thumbnail: "",
+    thumbnail: robot,
     form: ""
   },
   {
@@ -26,7 +29,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    thumbnail: "",
+    robot,
     form: ""
   },
   {
@@ -41,7 +44,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    thumbnail: "",
+    robot,
     form: ""
   },
   {
@@ -56,7 +59,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    thumbnail: "",
+    robot,
     form: ""
   },
   {
@@ -71,7 +74,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    thumbnail: "",
+    robot,
     form: ""
   },
   {
@@ -86,7 +89,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    thumbnail: "",
+    robot,
     form: ""
   },
   {
@@ -101,7 +104,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    thumbnail: "",
+    robot,
     form: ""
   },
 
