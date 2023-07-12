@@ -160,3 +160,9 @@ section {
     overflow: hidden;
     max-width: 100vw;
 }
+
+@media screen and (max-width: 768px){
+    .newsection {
+        margin-top : 0;
+    }
+}
