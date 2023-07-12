@@ -7,24 +7,23 @@ export const domainData = [
     name: "Domain 1",
     shortDesc: "",
     description: "This is domain 1",
-    responsibilites: [
+    responsibilities: [
       "Responsibility 1",
       "Responsibility 2",
       "Responsibility 3",
     ],
-    technologies: ["Technology 1",
-     "Technology 2",
-    "Technology 3"],
+    technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
     thumbnail: robot,
-    form: ""
+    form: "",
   },
   {
     id: 2,
     name: "Domain 2",
+    shortDesc: "",
     description: "This is domain 2",
-    responsibilites: [
+    responsibilities: [
       "Responsibility 1",
       "Responsibility 2",
       "Responsibility 3",
@@ -33,13 +32,14 @@ export const domainData = [
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
     thumbnail: robot,
-    form: ""
+    form: "",
   },
   {
-    id: 1,
-    name: "Domain 1",
+    id: 3,
+    name: "Domain 3",
+    shortDesc: "",
     description: "This is domain 1",
-    responsibilites: [
+    responsibilities: [
       "Responsibility 1",
       "Responsibility 2",
       "Responsibility 3",
@@ -48,13 +48,14 @@ export const domainData = [
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
     thumbnail: robot,
-    form: ""
+    form: "",
   },
   {
-    id: 1,
-    name: "Domain 1",
+    id: 4,
+    name: "Domain 4",
+    shortDesc: "",
     description: "This is domain 1",
-    responsibilites: [
+    responsibilities: [
       "Responsibility 1",
       "Responsibility 2",
       "Responsibility 3",
@@ -63,13 +64,14 @@ export const domainData = [
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
     thumbnail: robot,
-    form: ""
+    form: "",
   },
   {
-    id: 1,
+    id: 5,
     name: "Domain 1",
+    shortDesc: "",
     description: "This is domain 1",
-    responsibilites: [
+    responsibilities: [
       "Responsibility 1",
       "Responsibility 2",
       "Responsibility 3",
@@ -78,28 +80,14 @@ export const domainData = [
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
     thumbnail: robot,
-    form: ""
+    form: "",
   },
   {
-    id: 2,
-    name: "Domain 2",
-    description: "This is domain 2",
-    responsibilites: [
-      "Responsibility 1",
-      "Responsibility 2",
-      "Responsibility 3",
-    ],
-    technologies: ["Technology 1", "Technology 2", "Technology 3"],
-    status: "Active", // Active, Inactive, Archived
-    isRecruting: false,
-    thumbnail: robot,
-    form: ""
-  },
-  {
-    id: 1,
+    id: 6,
     name: "Domain 1",
+    shortDesc: "",
     description: "This is domain 1",
-    responsibilites: [
+    responsibilities: [
       "Responsibility 1",
       "Responsibility 2",
       "Responsibility 3",
@@ -108,7 +96,22 @@ export const domainData = [
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
     thumbnail: robot,
-    form: ""
+    form: "",
   },
-
+  {
+    id: 7,
+    name: "Domain 1",
+    shortDesc: "",
+    description: "This is domain 1",
+    responsibilities: [
+      "Responsibility 1",
+      "Responsibility 2",
+      "Responsibility 3",
+    ],
+    technologies: ["Technology 1", "Technology 2", "Technology 3"],
+    status: "Active", // Active, Inactive, Archived
+    isRecruting: false,
+    thumbnail: robot,
+    form: "",
+  },
 ];

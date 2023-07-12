@@ -8,10 +8,10 @@ interface PROPS {
 type DOMAIN = {
   id : number,
   name: string,
-  shortdesc: string,
+  shortDesc: string,
   description: string,
-  responsibilities : [string], 
-  technologies: [string], 
+  responsibilities : string[], 
+  technologies: string[], 
   status : string,
   isRecruting: boolean, 
   thumbnail: string, 

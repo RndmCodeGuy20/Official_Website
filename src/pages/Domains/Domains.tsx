@@ -7,9 +7,9 @@ const Domains = () => {
   const [allDomains, setallDomains] = useState([...domainData])
   return (
         <section id="particlesJS" className={styles["domainMain"]}>
-            <header data-aos="fade-in">
+            {/* <header data-aos="fade-in">
                 <h2>RAC Club Domains</h2>
-            </header>
+            </header> */}
             <div className={styles["container"]}>
                 {
                   allDomains.map((domain) => {
