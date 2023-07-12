@@ -8,6 +8,7 @@ interface PROPS {
 type DOMAIN = {
   id : number,
   name: string,
+  shortdesc: string,
   description: string,
   responsibilities : [string], 
   technologies: [string], 
@@ -22,11 +23,17 @@ const DomainCard = (props: PROPS) => {
     <div className={styles["box"]}>
     <span></span>
     <div className={styles["content"]}  style={{ 
-      backgroundImage : `url(${domain.thumbnail})`
+  
     }}>
       <h2>{domain.name}</h2>
       <p>{domain.description}</p>
-      <a href="#">Read More</a>
+      <div 
+        style={{ 
+          width: "100%"
+        }}
+      >
+        <a href="#">Join</a> 
+      </div>
     </div>
   </div>
   )

@@ -5,13 +5,16 @@ export const domainData = [
   {
     id: 1,
     name: "Domain 1",
+    shortDesc: "",
     description: "This is domain 1",
     responsibilites: [
       "Responsibility 1",
       "Responsibility 2",
       "Responsibility 3",
     ],
-    technologies: ["Technology 1", "Technology 2", "Technology 3"],
+    technologies: ["Technology 1",
+     "Technology 2",
+    "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
     thumbnail: robot,

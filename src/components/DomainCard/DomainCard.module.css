@@ -184,20 +184,19 @@
   left: 0;
   padding: 20px 40px;
   background: rgba(255, 255, 255, 0.05);
-  background-image: none !important;
   backdrop-filter: blur(10px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   z-index: 1;
   transform: 0.5s;
   color: #fff;
+  
 }
 
 .box:hover .content
 {
   left: -25px;
   padding: 60px 40px;
-  background-image: inherit;
 }
 
 
@@ -215,7 +214,11 @@
   margin-bottom: 10px;
   line-height: 1.4em;
 }
-
+.box .content div{ 
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
 .box .content a
 {
   display: inline-block;
@@ -227,6 +230,8 @@
   text-decoration: none;
   font-weight: 700;
   margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box .content a:hover
