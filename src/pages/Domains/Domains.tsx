@@ -10,7 +10,7 @@ const Domains = () => {
             <header data-aos="fade-in">
                 <h2>RAC Club Domains</h2>
             </header>
-            <div className={styles["allDomain"]}>
+            <div className={styles["container"]}>
                 {
                   allDomains.map((domain) => {
                     return(

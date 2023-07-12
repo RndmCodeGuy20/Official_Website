@@ -29,7 +29,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    robot,
+    thumbnail: robot,
     form: ""
   },
   {
@@ -44,7 +44,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    robot,
+    thumbnail: robot,
     form: ""
   },
   {
@@ -59,7 +59,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    robot,
+    thumbnail: robot,
     form: ""
   },
   {
@@ -74,7 +74,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    robot,
+    thumbnail: robot,
     form: ""
   },
   {
@@ -89,7 +89,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    robot,
+    thumbnail: robot,
     form: ""
   },
   {
@@ -104,7 +104,7 @@ export const domainData = [
     technologies: ["Technology 1", "Technology 2", "Technology 3"],
     status: "Active", // Active, Inactive, Archived
     isRecruting: false,
-    robot,
+    thumbnail: robot,
     form: ""
   },
 
