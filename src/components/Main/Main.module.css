@@ -153,11 +153,15 @@
         align-self: flex-end;
         animation: slideInLeft 0.3s ease-in-out;
      }
-         .biggerTitle{
+        .biggerTitle{
         margin: 0;
         padding: 0;
         justify-self: center;
         align-self: center;
+    }
+    .home_button button{
+        font-size: 0.65rem;
+        letter-spacing: 1px;
     }
 }
 
@@ -170,5 +174,9 @@
     }
     .home_button {
         margin: 15px 0;
+    }
+    .home_button button{
+        font-size: 0.65rem;
+        letter-spacing: 1px;
     }
 }
