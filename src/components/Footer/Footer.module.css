@@ -109,5 +109,12 @@
     .footer_1 img{ 
         width: 25%;
     }
-    
+    .footer_4 ul{ 
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_copyright span{ 
+        display: block;
+        color: rgba(255,255,255,0.75);
+    }
 }
