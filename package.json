@@ -16,6 +16,7 @@
     "swiper": "^10.0.4"
   },
   "devDependencies": {
+    "@types/node": "^20.4.1",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@types/swiper": "^6.0.0",

@@ -22,7 +22,7 @@ import './Achievement.css'
 
 const Achievement = () => {
   return (
-    <>
+    <section>
       <header data-aos="slide-up" id="achievements" className="header" >
         <h2>Achievements</h2>
       </header>
@@ -73,7 +73,7 @@ const Achievement = () => {
           <img src={img10} />
         </SwiperSlide>
       </Swiper>
-    </>
+    </section>
   );
 }
 

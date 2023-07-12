@@ -1,10 +1,14 @@
 /*----------------------footer---------------------*/
 .footer {
+    max-width: 100vw;
+    overflow: hidden;
     background:#0e0e0e;
     padding-top: 5rem;
     font-size: 0.9rem;
     width: 100%;
     color: white;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .footer_container {
@@ -18,6 +22,12 @@
     margin-bottom: 1.2rem;
 }
 
+.footer_1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer_1 p {
     margin: 1rem 0 2rem;
 }
@@ -25,10 +35,11 @@
 .footer ul li{ 
     margin: 5px 0;
     transition: 0.4s;
+    color: gray;
+    padding: 2px 0;
 }
 .footer ul li a { 
     color: gray;
-    padding: 2px 0;
 }
 .footer ul li a:hover {
     text-decoration: underline;
@@ -53,4 +64,50 @@
     margin-top: 4rem;
     padding: 1.2rem 0;
     border-top: 1px solid var(--color-bg2);
+    color: gray;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ .permalinks li:hover{ 
+    color: var(--color-bg2);
+ }
+
+@media screen and (max-width: 1024px) {
+    .footer_container {
+         grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+ 
+}
+
+
+
+@media screen and (max-width: 512px) {
+    .footer{ 
+        padding-top: 1rem;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .permalinks{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    
+    }
+    .footer_1{ 
+        width: 100%;
+    }
+    .footer_1 a{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_1 img{ 
+        width: 25%;
+    }
+    
 }

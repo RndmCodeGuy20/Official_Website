@@ -1,19 +1,33 @@
+.mainContainer{ 
+	width: 100vw;
+	overflow: hidden;
+	height: auto;
+}
+
+
 .header{ 
-text-align: center; 
-font-size: 2rem; 
-padding: 25px 0;
+	text-align: center; 
+	font-size: 2rem; 
+	padding: 25px 0;
 }
 
 
 .f0 {
-	height: 50vh;
+	position: relative;
+
 	padding-block: 13rem;
     display: grid;
     place-content: center;
     margin-bottom: 150px ;
     padding-top: 0;
 }
-
+.f0 header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	visibility: hidden;
+	transform: translate(-50%, -50%);
+}
 .newcontainer {
 	position: relative;
 	width: 320px;
@@ -64,31 +78,168 @@ padding: 25px 0;
 	}
 }
 
+
 .newimage:nth-child(1) {
 	background-image: url("../../assets/todo/plane.jpg");
-	transform: rotateY(-60deg) translateZ(430px);
+	transform: rotateY(-60deg) translateZ(180px) translateY(120px);
 }
 
 .newimage:nth-child(2) {
 	background-image: url("../../assets/logo.png");
-	transform: rotateY(0deg) translateZ(430px);
+	transform: rotateY(0deg) translateZ(180px) translateY(90px);
 }
 
 .newimage:nth-child(3) {
 	background-image: url("../../assets/todo/drone.jpg");
-	transform: rotateY(60deg) translateZ(430px);
+	transform: rotateY(60deg) translateZ(180px) translateY(30px);
 }
 
 .newimage:nth-child(4) {
 	background-image: url("../../assets/todo/bot.jpg");
-	transform: rotateY(120deg) translateZ(430px);
+	transform: rotateY(120deg) translateZ(180px) translateY(-30px);
 }
 
 .newimage:nth-child(5) {
 	background-image: url("../../assets/todo/boat.jpg");
-	transform: rotateY(180deg) translateZ(430px);
+	transform: rotateY(180deg) translateZ(180px) translateY(-90px);
 }
 .newimage:nth-child(6) {
 	background-image: url("../../assets/todo/robot.jpg");
-	transform: rotateY(240deg) translateZ(430px);
+	transform: rotateY(240deg) translateZ(180px) translateY(-150px);
+}
+.newimage:nth-child(7) {
+	background-image: url("../../assets/todo/robot.jpg");
+	transform: rotateY(240deg) translateZ(180px) translateY(-10px);
+}
+
+
+@media screen and (max-width: 768px) {
+	.f0{ 
+		padding-block: 15rem;
+	}	
+	.carousel{ 
+		animation: rotate360 5s infinite forwards linear;
+	}
+	.newimage{ 
+		width: 150px;
+		height: 100px;
+		top: 15%;
+	}
+	.carousel-span {
+		font-size: 1rem;
+	}
+
+	
+
+}
+@media screen and (min-width: 768px) {
+	.f0{ 
+		height: 75vh;
+	}
+	.newimage:nth-child(1) {
+		background-image: url("../../assets/todo/plane.jpg");
+		transform: rotateY(-60deg) translateZ(430px);
+	}
+		
+	.newimage:nth-child(2) {
+		background-image: url("../../assets/logo.png");
+		transform: rotateY(0deg) translateZ(430px);
+	}
+
+	.newimage:nth-child(3) {
+		background-image: url("../../assets/todo/drone.jpg");
+		transform: rotateY(60deg) translateZ(430px);
+	}
+
+	.newimage:nth-child(4) {
+		background-image: url("../../assets/todo/bot.jpg");
+		transform: rotateY(120deg) translateZ(430px);
+	}
+
+	.newimage:nth-child(5) {
+		background-image: url("../../assets/todo/boat.jpg");
+		transform: rotateY(180deg) translateZ(430px);
+	}
+	.newimage:nth-child(6) {
+		background-image: url("../../assets/todo/robot.jpg");
+		transform: rotateY(240deg) translateZ(430px);
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	.f0{ 
+		height: 60vh;
+	}
+    .carousel-span {
+		font-size: 1.25rem;
+		
+	}
+	.f0 header{ 
+		visibility: visible;
+		font-size: x-large;
+		transform: translateZ(60px) translateX(-50%) translateY(-50%);
+	}
+	.f0 header:nth-child(2){
+		transform: translateZ(60px) translateX(-51%) translateY(-51%);
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 910px) {
+    .carousel-span {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 548px) {
+	.header{ 
+		font-size: 1.5rem;
+	}
+	.f0{ 
+		min-height: auto;
+		height: 30vh;
+		padding-block: 15rem;
+	}	
+	.f0 header{ 
+		font-size: larger;
+	}
+	.newimage{ 
+		width: 30vw;
+		height: 14vh;
+		top: 15%;
+	}
+
+
+	.carousel-span {
+		font-size: 0.9rem;
+	}
+	
+	.newimage:nth-child(1) {
+		background-image: url("../../assets/todo/plane.jpg");
+		transform: rotateY(0deg) translateZ(15vw) translateY(-110px);
+	}
+
+	.newimage:nth-child(2) {
+		background-image: url("../../assets/logo.png");
+		transform: rotateY(0deg) translateZ(75px) translateY(45px);
+	}
+
+	.newimage:nth-child(3) {
+		background-image: url("../../assets/todo/drone.jpg");
+		transform: rotateY(120deg) translateZ(75px) translateY(-110px);
+	}
+
+	.newimage:nth-child(4) {
+		background-image: url("../../assets/todo/bot.jpg");
+		transform: rotateY(120deg) translateZ(75px) translateY(45px);
+	}
+
+	.newimage:nth-child(5) {
+		background-image: url("../../assets/todo/boat.jpg");
+		transform: rotateY(240deg) translateZ(75px) translateY(-110px);
+	}
+	.newimage:nth-child(6) {
+		background-image: url("../../assets/todo/robot.jpg");
+		transform: rotateY(240deg) translateZ(75px) translateY(45px);
+	}
+
+	.newimage { 
+		scale: 1.25;
+	}
 }

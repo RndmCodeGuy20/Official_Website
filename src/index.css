@@ -147,13 +147,18 @@ body {
 
 /* section */
 section {
-    height: 80vh;
+    overflow: hidden;
+    max-width: 100vw;
+    min-height: 80vh;
+    height: auto;
     scroll-snap-align: start;
     /* border-bottom: 1px solid white; */
 }
 
 .newsection {
     margin-top : 5%;
+    overflow: hidden;
+    max-width: 100vw;
 }
 
 @media screen and (max-width: 768px){
