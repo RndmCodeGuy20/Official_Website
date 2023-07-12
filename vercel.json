@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/", "destination": "/" },
     { "source": "/(.*)", "destination": "/" },
-    { "source": "/team", "destination": "/team" }
+    { "source": "/team", "destination": "/team" },
+    { "source": "/recruitment", "destination": "/recruitment" }
   ]
 }
