@@ -23,7 +23,7 @@ const About = () => {
                      alt="" />
             </div>
             <div  data-aos="fade-right" data-aos-delay="100" className={`${styles["aboutDescription"]} `}>
-                <div className='flex flex-col flex-center'>
+                <div className='flex flex-col flex-center' >
                     <p style={{ 
                         marginBottom: '25px'
                     }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto omnis nulla id molestias

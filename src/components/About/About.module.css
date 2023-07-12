@@ -57,7 +57,10 @@
         margin: 0 auto;
     }
     .aboutMain{ 
-        flex-direction: column;
+        flex-direction: column-reverse;
         font-size: small;
+    }
+    .aboutDescription div{ 
+        margin-left: 50px;
     }
 }
