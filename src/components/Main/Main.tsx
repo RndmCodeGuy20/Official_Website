@@ -18,7 +18,7 @@ const Main = () => {
         <div className={`${styles["home_button"]} flex flex-center`}>
             <Link to={'/recruitment'} >
                 <button data-aos="slide-up" className={`btn m-auto`}>
-                    Join Us !
+                    Register Here
                 </button>
             </Link>
         </div>

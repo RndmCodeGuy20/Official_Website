@@ -1,0 +1,9 @@
+.container , .container div{ 
+    background: #000 !important;
+}
+
+.container .right{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
