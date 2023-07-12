@@ -4,6 +4,8 @@
 }
 
 .aboutDescription{ 
+    align-items: center;
+    justify-content: center;
     width: 75%;
     padding: 0 10% 0 0;
 }
@@ -20,7 +22,6 @@
     }
 
     .aboutDescription{ 
-        width: 75%;
         font-size: medium;
     }
     .aboutMain{ 
@@ -29,7 +30,6 @@
 }
 @media screen and (max-width: 675px) {
         .aboutDescription{ 
-            width: 75%;
             font-size: small;
     }
 }
@@ -46,17 +46,18 @@
     .aboutDescription{ 
         width: 100%;
         font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    .aboutDescription div{ 
+        width: 100%;
+    }   
     .aboutDescription p{ 
-        width: 90%; 
         margin: 0 auto;
-        text-align: center;
     }
     .aboutMain{ 
         flex-direction: column;
         font-size: small;
-    }
-    .aboutMain{ 
-
     }
 }

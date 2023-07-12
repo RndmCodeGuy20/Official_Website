@@ -9,19 +9,24 @@ const About = () => {
         <header data-aos="fade-up"
                 className="flex"
                 style={{ padding: "0 0 0 10%"}}>
-            <h2 data-aos="fade-up">What is Robionics ?
+            <h2 data-aos="fade-up">About RAC
             </h2>
 
         </header>
-        <div className={`${styles["aboutMain"]} flex items-center`}
+        <div className={`${styles["aboutMain"]} flex flex-center`}
              style={{ height: '75%'}}>
-            <div data-aos="fade-right" className={`${"aboutLogo"} flex flex-center`} style={{width: "75%"}}>
+            <div data-aos="fade-right" className={`${"aboutLogo"} flex flex-center`} style={{
+                width: '100%'
+            }}>
                 <img src={logo}
                      width="50%"
                      alt="" />
             </div>
-            <div  data-aos="fade-right" data-aos-delay="100" className={`${styles["aboutDescription"]} flex flex-col gap`}>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto omnis nulla id molestias
+            <div  data-aos="fade-right" data-aos-delay="100" className={`${styles["aboutDescription"]} `}>
+                <div className='flex flex-col flex-center'>
+                    <p style={{ 
+                        marginBottom: '25px'
+                    }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto omnis nulla id molestias
                     odit nobis? Provident consectetur qui doloremque quibusdam laborum quas impedit vitae perspiciatis?
                     Veritatis neque animi omnis.</p>
                 <p>
@@ -29,6 +34,7 @@ const About = () => {
                     sit eaque sequi ullam nostrum animi aliquid eum rerum, fuga cupiditate quis officia quia quasi nam
                     voluptate quod mollitia? Soluta est ducimus omnis illum inventore doloremque voluptates.
                 </p>
+                </div>
             </div>
         </div>
     </section>
