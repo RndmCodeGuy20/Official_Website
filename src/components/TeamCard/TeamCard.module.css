@@ -103,3 +103,15 @@
     color: white;
     font-size: 24px;
 }
+
+@media screen and (max-width: 768px){ 
+    .teamMain{ 
+        padding: 25% 5%;
+    }  
+
+}
+@media screen and (max-width: 480px){
+    .teamMain{ 
+        padding: 30% 5%;
+    } 
+}
