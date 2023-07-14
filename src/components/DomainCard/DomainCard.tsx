@@ -26,7 +26,7 @@ const DomainCard = (props: PROPS) => {
   
     }}>
       <h2>{domain.name}</h2>
-      <p>{domain.description}</p>
+      <p>{domain.shortDesc}</p>
       <div 
         style={{ 
           width: "100%"
