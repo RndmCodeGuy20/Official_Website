@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Team from './pages/Team';
 
 import './App.css';
+import Domains from './pages/Domains/Domains';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/team" element={<Team />} />
+				<Route path="/domains" element={<Domains />} />
 			</Routes>
 		</BrowserRouter>
 	);

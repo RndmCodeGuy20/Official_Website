@@ -73,6 +73,10 @@
     --container-width-md: 90%;
     --container-width-sm: 94%;
 
+    --clr-neutral-900: hsl(207, 19%, 9%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-accent-400: hsl(142, 90%, 61%);
+
     --transition: all 400ms ease;
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
