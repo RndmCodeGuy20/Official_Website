@@ -3,11 +3,12 @@ import RAC_LOGO from '../../assets/logo.png'
 import drawer from '../../assets/nav/drawer.svg'
 import { useState } from 'react'
 import NavDrawer from './NavDrawer'
+import { useLocation } from 'react-router-dom'
 
 const NavBar = () => {  
 
     const [showMenu, setshowMenu] = useState(false)
-
+    const location = useLocation()
 
   return (
       <nav>
@@ -18,7 +19,7 @@ const NavBar = () => {
                 <img src={drawer} width={40} alt="" />
               </div>
               <div>
-                  <a href="#home">
+                  <a href="/">
                       <img 
                           src={RAC_LOGO}
                           alt=""/>

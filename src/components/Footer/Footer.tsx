@@ -39,12 +39,12 @@ const Footer = () => {
                       <li>+91 xxx xxxx xxx</li>
                       <li>rac.club@rknec.edu</li>
                   </ul>
-                  <ul className={styles["footer_socials"]}>
+                  {/* <ul className={styles["footer_socials"]}>
                       <li><a href="#"><i className="uil uil-facebook-f"></i></a></li>
                       <li><a href="#"><i className="uil uil-instagram-alt"></i></a></li>
                       <li><a href="#"><i className="uil uil-twitter"></i></a></li>
                       <li><a href="#"><i className="uil uil-linkedin-alt"></i></a></li>
-                  </ul>
+                  </ul> */}
               </div>
 
           </div>

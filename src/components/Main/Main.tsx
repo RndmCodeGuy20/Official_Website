@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './Main.module.css'
 
 
@@ -15,9 +16,11 @@ const Main = () => {
             beatae tenetur quaerat, soluta pariatu
         </p>
         <div className={`${styles["home_button"]} flex flex-center`}>
-            <button data-aos="slide-up" className={`btn m-auto`}>
-                Wanna Join Us
-            </button>
+            <Link to={'/recruitment'} >
+                <button data-aos="slide-up" className={`btn m-auto`}>
+                    Register Here
+                </button>
+            </Link>
         </div>
     </section>
   )

@@ -7,6 +7,7 @@
     place-content: center;
     padding: 5% 10%;
     margin-bottom: 5%;
+    gap: 25px;
 }
 
 .home header{ 
@@ -98,7 +99,7 @@
 /* media querries */
 @media screen and (max-width: 768px){ 
     .home{ 
-        height: 100vh;
+        height: 85vh;
         padding-top: 20%;
     }
     .home header{ 
@@ -113,9 +114,11 @@
         font-size: small;
     }
     .home_button button{ 
-        width: 25%;
         font-size: 0.6rem;
         font-weight: bolder;
+    }
+    .homeTitleWord{ 
+        font-weight: 600;
     }
 }
 @media screen and (min-width:768px) and (max-width: 964px){ 
@@ -129,7 +132,6 @@
         width: 100%;
     }
     .home_button button{ 
-        width: 25%;
     }
 }
 
@@ -151,16 +153,30 @@
         align-self: flex-end;
         animation: slideInLeft 0.3s ease-in-out;
      }
-         .biggerTitle{
+        .biggerTitle{
         margin: 0;
         padding: 0;
         justify-self: center;
         align-self: center;
+    }
+    .home_button button{
+        font-size: 0.65rem;
+        letter-spacing: 1px;
     }
 }
 
 @media screen and (max-width:480px) {
     .homeTitleWord{ 
         font-size: 3rem;
+    }
+    .biggerTitle{ 
+        font-size: 5rem;
+    }
+    .home_button {
+        margin: 15px 0;
+    }
+    .home_button button{
+        font-size: 0.65rem;
+        letter-spacing: 1px;
     }
 }
